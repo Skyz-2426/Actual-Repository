@@ -1044,6 +1044,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 403965902444250509, guid: 19954de30401f73428254541a9ad156e,
@@ -1051,6 +1052,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2285753019614685852, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86811e8de9d7743d7a8dd435284fcee2, type: 2}
     - target: {fileID: 4810912517523753821, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_IsActive
@@ -1151,6 +1157,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6443926822101527128, guid: 19954de30401f73428254541a9ad156e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 86811e8de9d7743d7a8dd435284fcee2, type: 2}
     - target: {fileID: 6643281549960510366, guid: 19954de30401f73428254541a9ad156e,
         type: 3}
       propertyPath: m_IsActive
@@ -1167,6 +1178,7 @@ PrefabInstance:
     - {fileID: 4810912518991602713, guid: 19954de30401f73428254541a9ad156e, type: 3}
     - {fileID: 4810912518991602695, guid: 19954de30401f73428254541a9ad156e, type: 3}
     - {fileID: 4810912518991602694, guid: 19954de30401f73428254541a9ad156e, type: 3}
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 19954de30401f73428254541a9ad156e, type: 3}
 --- !u!1 &1833309139
 GameObject:
@@ -1458,6 +1470,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
