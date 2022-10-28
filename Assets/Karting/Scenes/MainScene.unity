@@ -2552,6 +2552,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5209091469546302554, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -2631,6 +2636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KartClassic_MLAgent (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
       objectReference: {fileID: 0}
     - target: {fileID: 6045184371406616988, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -4778,6 +4788,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 63958e7742cf24f7cb1d8912993df1bc, type: 2}
+    - target: {fileID: 5209091469546302554, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -4848,10 +4863,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198658, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: baseStats.AccelerationCurve
+      value: 0.796
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_Name
       value: KartClassic_MLAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
       objectReference: {fileID: 0}
     - target: {fileID: 6045184371406616988, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -4860,8 +4890,18 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 63958e7742cf24f7cb1d8912993df1bc, type: 2}
     - target: {fileID: 6521773912976216144, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
+      propertyPath: Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521773912976216144, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
       propertyPath: ShowRaycasts
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521773912976216144, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: AccelerationReward
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6521773912976216144, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -9994,6 +10034,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1654624ba619442fdba5bf9ae5749295, type: 2}
+    - target: {fileID: 5209091469546302554, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -10068,6 +10113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KartClassic_MLAgent (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
       objectReference: {fileID: 0}
     - target: {fileID: 6045184371406616988, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -12280,12 +12330,12 @@ PrefabInstance:
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.02071525
+      value: -0.02071524
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00050421583
+      value: 0.0005042157
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
@@ -12295,7 +12345,7 @@ PrefabInstance:
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.02432789
+      value: 0.024327897
       objectReference: {fileID: 0}
     - target: {fileID: 6691645748356329553, guid: 4366ba6a4d5213d4f9fc7bba3e778799,
         type: 3}
@@ -13295,6 +13345,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5209091469546302554, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -13369,6 +13424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KartClassic_MLAgent (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
       objectReference: {fileID: 0}
     - target: {fileID: 6521773912976216144, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -18555,7 +18615,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1207105314}
-  m_LocalRotation: {x: 0.00050421583, y: 0.9994893, z: 0.02432789, w: -0.02071525}
+  m_LocalRotation: {x: 0.0005042157, y: 0.9994893, z: 0.024327897, w: -0.02071524}
   m_LocalPosition: {x: -4.87, y: 1.1800001, z: -25.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -20305,6 +20365,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 48f8b7ff40e3747aba8cd16418105705, type: 2}
+    - target: {fileID: 5209091469546302554, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -20379,6 +20444,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KartClassic_MLAgent (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
       objectReference: {fileID: 0}
     - target: {fileID: 6045184371406616988, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -23861,6 +23931,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0ce7198a40239414dac33571d8a2f0b5, type: 2}
+    - target: {fileID: 5209091469546302554, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -23935,6 +24010,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KartClassic_MLAgent (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
       objectReference: {fileID: 0}
     - target: {fileID: 6045184371406616988, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
@@ -28327,6 +28407,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f5d1c82338a8543278631318ea6fa154, type: 2}
+    - target: {fileID: 5209091469546302554, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 5209091469959198656, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
       propertyPath: m_RootOrder
@@ -28401,6 +28486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KartClassic_MLAgent (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
       objectReference: {fileID: 0}
     - target: {fileID: 6045184371406616988, guid: 5f7c5784d4776074089b56351be94b74,
         type: 3}
