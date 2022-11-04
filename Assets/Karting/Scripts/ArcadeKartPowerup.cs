@@ -1,4 +1,4 @@
-﻿using KartGame.KartSystems;
+using KartGame.KartSystems;
 using UnityEngine;
 using UnityEngine.Events;
 
