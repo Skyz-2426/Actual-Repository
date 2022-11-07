@@ -26,9 +26,10 @@ public class ArcadeKartPowerup : MonoBehaviour {
 
     private void Update()
     {
-        if (isCoolingDown) { 
-
-            if (Time.time - lastActivatedTimestamp > cooldown) {
+        if (isCoolingDown)
+        { 
+            if (Time.time - lastActivatedTimestamp > cooldown)
+            {
                 //finished cooldown!
                 isCoolingDown = false;
                 onPowerupFinishCooldown.Invoke();
